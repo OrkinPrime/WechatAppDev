@@ -1,14 +1,30 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/user-center/user-center"
+    "pages/user-center/user-center",
+    "pages/lessons/lessons",
+    "pages/user-classes/user-classes"
   ],
   "tabBar": {
     "color": "",
     "selectedColor": "",
-    "list":[
-      {"pagePath": "pages/index/index","text": "首页"},
-      {"pagePath": "pages/user-center/user-center","text": "个人"}
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lessons/lessons",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/user-classes/user-classes",
+        "text": "班级"
+      },
+      {
+        "pagePath": "pages/user-center/user-center",
+        "text": "个人"
+      }
     ]
   },
   "window": {

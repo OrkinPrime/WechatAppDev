@@ -1,7 +1,6 @@
-<!--index.wxml-->
 <navigation-bar title="每日国学" back="{{false}}" color="black" background="#F8F8F8"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    首页
+    班级
   </view>
 </scroll-view>

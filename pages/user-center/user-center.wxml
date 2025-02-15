@@ -1,1 +1,6 @@
-<text>用户中心</text>
+<navigation-bar title="每日国学" back="{{false}}" color="black" background="#F8F8F8" ></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    个人中心
+  </view>
+</scroll-view>
