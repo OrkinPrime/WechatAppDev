@@ -1,0 +1,43 @@
+<navigation-bar title="志愿者管理中心" back="{{true}}" color="black" background="#F8F8F8"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+    <view class="container">
+        <view class="grid-container">
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+            <view>
+                <button></button>
+                <text>A</text>
+            </view>
+        </view>
+    </view>
+</scroll-view>

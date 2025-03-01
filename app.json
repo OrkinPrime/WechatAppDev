@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/user-center/user-center",
     "pages/lessons/lessons",
-    "pages/user-classes/user-classes"
+    "pages/user-classes/user-classes",
+    "pages/volunteer-center/volunteer-center"
   ],
   "tabBar": {
     "color": "",

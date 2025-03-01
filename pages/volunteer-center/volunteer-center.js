@@ -1,20 +1,17 @@
-// pages/user-center/user-center.js
+// pages/volunteer-center.js
 Page({
 
   /**
-   * 页面的初始数据：获取用户数据，如果是管理员，则渲染志愿者管理系统的入口按钮。
+   * 页面的初始数据
    */
   data: {
-    ifManager:false
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    this.setData({
-      ifManager:true
-    });
 
   },
 
@@ -65,11 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  goToVolunteerCenter(){
-    wx.navigateTo({
-      url: '/pages/volunteer-center/volunteer-center'
-    });
   }
 })

@@ -2,5 +2,9 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     个人中心
+    <view wx:if="{(ifManager)}">
+      <button bindtap="goToVolunteerCenter">志愿者管理中心</button>
+    </view>
   </view>
+
 </scroll-view>

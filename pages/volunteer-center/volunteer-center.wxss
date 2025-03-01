@@ -1,0 +1,22 @@
+page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.scrollarea {
+    flex: 1;
+    overflow-y: hidden;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 九宫格3列 */
+    grid-template-rows: repeat(3, 1fr); /* 九宫格3行 */
+    gap: 10px; /* 定义列与列之间和行与行之间的间隔 */
+}
+.grid-container button {
+    height: 85px;
+    width: 85px;
+}
+.grid-container view {
+    text-align: center;
+}
