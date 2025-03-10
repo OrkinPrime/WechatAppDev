@@ -1,0 +1,42 @@
+<navigation-bar title="添加志愿者" color="black" background="#F8F8F8"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <!-- 学员搜索区域 -->
+  <view class="search-area">
+    <input placeholder="请输入学员ID" bindinput="onSearchInput" />
+    <button bindtap="onSearch">搜索</button>
+  </view>
+
+  <!-- 学员列表 -->
+  <view class="student-list">
+    <!-- 只有当 studentList 不为空时才渲染列表 -->
+    <view wx:if="{{studentList.length > 0}}">
+      <view
+              wx:for="{{studentList}}"
+              wx:key="UserID"
+              class="student-item {{selectedStudentId === item.UserID ? 'selected' : ''}}"
+              bindtap="onSelectStudent"
+              data-id="{{item.UserID}}"
+      >
+        <text>学员 ID: {{item.UserID}}</text>
+      </view>
+    </view>
+    <view wx:else>
+      <text>暂无学员信息</text>
+    </view>
+  </view>
+
+  <!-- 岗位选择 -->
+  <view class="position-select" wx:if="{{selectedStudentId !== null && positionList.length > 0}}">
+    <picker mode="selector" range="{{positionList}}" range-key="PostName" bindchange="onPositionChange">
+      <view class="picker">
+        选择岗位：{{selectedPosition ? selectedPosition.PostName : '请选择'}}
+      </view>
+    </picker>
+    <view wx:if="{{isLoading}}">加载中...</view>
+  </view>
+
+  <!-- 确认按钮 -->
+  <view class="confirm-btn" wx:if="{{selectedStudentId && selectedPosition}}">
+    <button bindtap="onConfirm">确认添加</button>
+  </view>
+</scroll-view>

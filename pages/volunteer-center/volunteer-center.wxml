@@ -3,20 +3,20 @@
     <view class="container">
         <view class="grid-container">
             <view>
-                <button></button>
-                <text>A</text>
+                <button bindtap="goToAddPage"></button>
+                <text>添加</text>
             </view>
             <view>
                 <button></button>
-                <text>A</text>
+                <text>删除</text>
             </view>
             <view>
                 <button></button>
-                <text>A</text>
+                <text>修改</text>
             </view>
             <view>
                 <button></button>
-                <text>A</text>
+                <text>查询</text>
             </view>
             <view>
                 <button></button>

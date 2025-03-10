@@ -4,7 +4,8 @@
     "pages/user-center/user-center",
     "pages/lessons/lessons",
     "pages/user-classes/user-classes",
-    "pages/volunteer-center/volunteer-center"
+    "pages/volunteer-center/volunteer-center",
+    "pages/volunteer-center/add/add"
   ],
   "tabBar": {
     "color": "",

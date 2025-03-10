@@ -1,0 +1,10 @@
+.student-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.student-item.selected {
+    background-color: #f0f0f0;
+}

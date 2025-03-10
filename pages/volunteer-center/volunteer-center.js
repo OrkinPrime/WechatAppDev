@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  goToAddPage(){
+    wx.navigateTo({
+      url: '/pages/volunteer-center/add/add'
+    })
   }
 })
